@@ -1,0 +1,46 @@
+.grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    margin: 1rem;
+    color: white
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+    color: white
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+body{
+    background-color: rgb(142, 73, 184);
+}
+
